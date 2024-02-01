@@ -1,1 +1,3 @@
-console.log('Hello from git')
+exports.helloFromGit = (req, res) => {
+    res.send('Hello Git')
+}
